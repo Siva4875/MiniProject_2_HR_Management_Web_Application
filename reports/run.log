@@ -1,0 +1,623 @@
+2025-08-27 15:45:17,501 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:45:20,640 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:45:20,641 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:45:21,294 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:45:21,295 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:45:21,295 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:45:21,383 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:45:21,383 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:45:21,478 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Claim']")
+2025-08-27 15:45:24,406 | INFO | pages.claims_page | Starting a new claim process...
+2025-08-27 15:45:24,407 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Submit Claim']")
+2025-08-27 15:45:25,615 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Event']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 15:45:26,295 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']") (timeout=10)
+2025-08-27 15:45:26,314 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']")
+2025-08-27 15:45:26,370 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Currency']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 15:45:26,435 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Indian Rupee']") (timeout=10)
+2025-08-27 15:45:26,455 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Indian Rupee']")
+2025-08-27 15:45:26,510 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea"): 'Automated claim'
+2025-08-27 15:45:26,510 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 15:45:26,585 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea")
+2025-08-27 15:45:26,585 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Create']")
+2025-08-27 15:45:26,642 | INFO | pages.base_page | Clicking element: ('xpath', "//button[.//i[contains(@class,'plus')]]")
+2025-08-27 15:45:31,274 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Expense Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 15:45:31,858 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']") (timeout=10)
+2025-08-27 15:45:31,877 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']")
+2025-08-27 15:45:31,942 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Amount']/../following-sibling::div//input"): '10'
+2025-08-27 15:45:31,942 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Amount']/../following-sibling::div//input") (timeout=10)
+2025-08-27 15:45:32,024 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Amount']/../following-sibling::div//input")
+2025-08-27 15:45:32,024 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Note']/../following-sibling::div//textarea"): 'Automated claim item'
+2025-08-27 15:45:32,024 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Note']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 15:45:32,109 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Note']/../following-sibling::div//textarea")
+2025-08-27 15:45:32,109 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]"): '2025-08-27'
+2025-08-27 15:45:32,109 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]") (timeout=10)
+2025-08-27 15:45:32,193 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]")
+2025-08-27 15:45:32,193 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Save']")
+2025-08-27 15:45:32,258 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")
+2025-08-27 15:45:33,294 | INFO | pages.claims_page | Claim created successfully
+2025-08-27 15:45:41,895 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:45:45,120 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:45:45,120 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:45:45,773 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:45:45,773 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:45:45,773 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:45:45,858 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:45:45,858 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:45:45,929 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 15:45:47,805 | INFO | pages.base_page | Clicking element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 15:45:47,861 | INFO | pages.base_page | Clicking element: ('xpath', "//a[text()='Logout']")
+2025-08-27 15:45:57,327 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:46:00,186 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'manager@guvi.in'
+2025-08-27 15:46:00,186 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:46:00,845 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:46:00,846 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'password@123'
+2025-08-27 15:46:00,846 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:46:00,931 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:46:00,931 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:46:01,001 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 15:46:02,908 | INFO | pages.base_page | Retrieving text from element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 15:46:10,763 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:46:14,004 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'suman@guvi.in'
+2025-08-27 15:46:14,004 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:46:14,664 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:46:14,665 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'password@123'
+2025-08-27 15:46:14,665 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:46:14,749 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:46:14,749 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:46:14,817 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 15:46:16,236 | INFO | pages.base_page | Retrieving text from element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 15:46:24,057 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:46:35,121 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:46:38,003 | INFO | pages.base_page | Checking visibility of element: ('name', 'username')
+2025-08-27 15:46:38,605 | INFO | pages.base_page | Checking visibility of element: ('name', 'password')
+2025-08-27 15:46:46,677 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:46:49,805 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:46:49,805 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:46:50,453 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:46:50,453 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:46:50,453 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:46:50,533 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:46:50,533 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:46:50,597 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Admin']")
+2025-08-27 15:46:52,438 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Admin']")
+2025-08-27 15:46:53,499 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='PIM']")
+2025-08-27 15:46:54,163 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='PIM']")
+2025-08-27 15:46:55,041 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Leave']")
+2025-08-27 15:46:55,698 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Leave']")
+2025-08-27 15:46:56,586 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Time']")
+2025-08-27 15:46:57,250 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Time']")
+2025-08-27 15:46:58,174 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Recruitment']")
+2025-08-27 15:46:58,797 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Recruitment']")
+2025-08-27 15:46:59,691 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='My Info']")
+2025-08-27 15:47:00,385 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='My Info']")
+2025-08-27 15:47:01,377 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Performance']")
+2025-08-27 15:47:02,055 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Performance']")
+2025-08-27 15:47:03,055 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Dashboard']")
+2025-08-27 15:47:03,721 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Dashboard']")
+2025-08-27 15:47:12,884 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:47:16,143 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:47:16,143 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:47:16,794 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:47:16,794 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:47:16,794 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:47:16,878 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:47:16,879 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:47:16,939 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Admin']")
+2025-08-27 15:47:19,778 | INFO | pages.admin_page | Adding new user: siva4235 for employee: Ravi M B
+2025-08-27 15:47:19,779 | INFO | pages.base_page | Clicking element: ('xpath', "//button[.//i[contains(@class,'plus')]] | //button[normalize-space()='Add']")
+2025-08-27 15:47:21,007 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='User Role']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 15:47:21,694 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span[text()='ESS']")
+2025-08-27 15:47:21,750 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Status']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 15:47:21,801 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span[text()='Enabled']")
+2025-08-27 15:47:21,900 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input"): 'Ravi M B'
+2025-08-27 15:47:21,900 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input") (timeout=10)
+2025-08-27 15:47:21,996 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input")
+2025-08-27 15:47:21,996 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span")
+2025-08-27 15:47:23,588 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input"): 'siva4235'
+2025-08-27 15:47:23,588 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Username']/../following-sibling::div//input") (timeout=10)
+2025-08-27 15:47:23,666 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input")
+2025-08-27 15:47:23,666 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Password']/../following-sibling::div//input"): 'Pass@123'
+2025-08-27 15:47:23,666 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Password']/../following-sibling::div//input") (timeout=10)
+2025-08-27 15:47:23,750 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Password']/../following-sibling::div//input")
+2025-08-27 15:47:23,750 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Confirm Password']/../following-sibling::div//input"): 'Pass@123'
+2025-08-27 15:47:23,750 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Confirm Password']/../following-sibling::div//input") (timeout=10)
+2025-08-27 15:47:23,846 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Confirm Password']/../following-sibling::div//input")
+2025-08-27 15:47:23,846 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Save']")
+2025-08-27 15:47:23,913 | INFO | pages.admin_page | Clicked 'Save' button
+2025-08-27 15:47:23,913 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")
+2025-08-27 15:47:25,985 | INFO | pages.admin_page | User 'siva4235' added successfully.
+2025-08-27 15:47:25,986 | INFO | pages.base_page | Clicking element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 15:47:26,048 | INFO | pages.base_page | Clicking element: ('xpath', "//a[text()='Logout']")
+2025-08-27 15:47:27,595 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'siva4235'
+2025-08-27 15:47:27,595 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:47:28,222 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:47:28,222 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'Pass@123'
+2025-08-27 15:47:28,222 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:47:28,298 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:47:28,298 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:47:28,349 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 15:47:38,433 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:47:41,641 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:47:41,641 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:47:42,288 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:47:42,288 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:47:42,288 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:47:42,366 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:47:42,367 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:47:42,424 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Admin']")
+2025-08-27 15:47:45,226 | INFO | pages.admin_page | Searching for user: siva4235
+2025-08-27 15:47:45,227 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input"): 'siva4235'
+2025-08-27 15:47:45,227 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Username']/../following-sibling::div//input") (timeout=10)
+2025-08-27 15:47:45,979 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input")
+2025-08-27 15:47:45,980 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Search']")
+2025-08-27 15:47:46,046 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[@role='table']//div[@role='row']")
+2025-08-27 15:47:46,573 | INFO | pages.admin_page | User 'siva4235' found in search results.
+2025-08-27 15:47:54,397 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:47:57,604 | INFO | pages.base_page | Clicking element: ('xpath', "//p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']")
+2025-08-27 15:47:58,971 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//input[@name='username' or @placeholder='Username']")
+2025-08-27 15:48:00,029 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@name='username' or @placeholder='Username']"): 'Admin'
+2025-08-27 15:48:00,029 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@name='username' or @placeholder='Username']") (timeout=10)
+2025-08-27 15:48:00,126 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@name='username' or @placeholder='Username']")
+2025-08-27 15:48:00,126 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit' and normalize-space()='Reset Password'] | //button[@type='submit']")
+2025-08-27 15:48:00,193 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(text(),'Reset Password link sent successfully')] | //p[contains(text(),'instructions')] | //h6[@class='oxd-text oxd-text--h6 orangehrm-forgot-password-title']")
+2025-08-27 15:48:09,601 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:48:12,873 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:48:12,873 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:48:13,526 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:48:13,526 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:48:13,526 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:48:13,605 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:48:13,605 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:48:13,675 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='My Info']")
+2025-08-27 15:48:16,550 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Personal Details']")
+2025-08-27 15:48:17,875 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 15:48:18,565 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Contact Details']")
+2025-08-27 15:48:19,166 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 15:48:19,834 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Emergency Contacts']")
+2025-08-27 15:48:20,422 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 15:48:21,066 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Dependents']")
+2025-08-27 15:48:21,647 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 15:48:22,279 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Immigration']")
+2025-08-27 15:48:22,873 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 15:48:31,596 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:48:34,807 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:48:34,807 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:48:35,459 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:48:35,459 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:48:35,459 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:48:35,541 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:48:35,541 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:48:35,602 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Leave']")
+2025-08-27 15:48:39,423 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Assign Leave']")
+2025-08-27 15:48:40,982 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input"): 'Amelia  Brown'
+2025-08-27 15:48:40,982 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input") (timeout=10)
+2025-08-27 15:48:41,695 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input")
+2025-08-27 15:48:41,696 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span")
+2025-08-27 15:48:43,295 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Leave Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 15:48:43,355 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='CAN - Personal']") (timeout=10)
+2025-08-27 15:48:43,376 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='CAN - Personal']")
+2025-08-27 15:48:43,430 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]"): '2025-08-27'
+2025-08-27 15:48:43,430 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]") (timeout=10)
+2025-08-27 15:48:43,510 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]")
+2025-08-27 15:48:43,511 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea"): 'Automated leave'
+2025-08-27 15:48:43,511 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 15:48:43,601 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea")
+2025-08-27 15:48:43,601 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Assign']")
+2025-08-27 15:48:43,665 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//button[normalize-space()='Ok']")
+2025-08-27 15:48:44,709 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Ok']")
+2025-08-27 15:48:44,764 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")
+2025-08-27 16:01:34,680 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:01:38,218 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:01:38,218 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:01:38,898 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:01:38,899 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:01:38,899 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:01:38,982 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:01:38,982 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:01:39,082 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Claim']")
+2025-08-27 16:01:42,005 | INFO | pages.claims_page | Starting a new claim process...
+2025-08-27 16:01:42,005 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Submit Claim']")
+2025-08-27 16:01:43,232 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Event']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:01:43,892 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']") (timeout=10)
+2025-08-27 16:01:44,422 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']")
+2025-08-27 16:01:44,475 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Currency']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:01:44,541 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Indian Rupee']") (timeout=10)
+2025-08-27 16:01:44,561 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Indian Rupee']")
+2025-08-27 16:01:44,612 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea"): 'Automated claim'
+2025-08-27 16:01:44,612 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 16:01:44,690 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea")
+2025-08-27 16:01:44,690 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Create']")
+2025-08-27 16:01:44,749 | INFO | pages.base_page | Clicking element: ('xpath', "//button[.//i[contains(@class,'plus')]]")
+2025-08-27 16:01:49,478 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Expense Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:01:50,050 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']") (timeout=10)
+2025-08-27 16:01:50,066 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']")
+2025-08-27 16:01:50,121 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Amount']/../following-sibling::div//input"): '10'
+2025-08-27 16:01:50,121 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Amount']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:01:50,212 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Amount']/../following-sibling::div//input")
+2025-08-27 16:01:50,212 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Note']/../following-sibling::div//textarea"): 'Automated claim item'
+2025-08-27 16:01:50,212 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Note']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 16:01:50,311 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Note']/../following-sibling::div//textarea")
+2025-08-27 16:01:50,311 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]"): '2025-08-27'
+2025-08-27 16:01:50,311 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]") (timeout=10)
+2025-08-27 16:01:50,395 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]")
+2025-08-27 16:01:50,395 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Save']")
+2025-08-27 16:01:50,457 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")
+2025-08-27 16:01:50,985 | INFO | pages.claims_page | Claim created successfully
+2025-08-27 16:01:58,777 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:02:01,746 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:02:01,746 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:02:02,390 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:02:02,390 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:02:02,390 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:02:02,470 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:02:02,470 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:02:02,530 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 16:02:04,405 | INFO | pages.base_page | Clicking element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 16:02:04,466 | INFO | pages.base_page | Clicking element: ('xpath', "//a[text()='Logout']")
+2025-08-27 16:02:13,728 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:02:17,331 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'manager@guvi.in'
+2025-08-27 16:02:17,331 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:02:18,475 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:02:18,476 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'password@123'
+2025-08-27 16:02:18,476 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:02:18,558 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:02:18,559 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:02:18,633 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 16:02:20,052 | INFO | pages.base_page | Retrieving text from element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 16:02:27,792 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:02:30,707 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'suman@guvi.in'
+2025-08-27 16:02:30,707 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:02:31,371 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:02:31,371 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'password@123'
+2025-08-27 16:02:31,372 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:02:31,459 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:02:31,459 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:02:31,529 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 16:02:32,938 | INFO | pages.base_page | Retrieving text from element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 16:02:40,612 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:02:51,182 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:02:54,500 | INFO | pages.base_page | Checking visibility of element: ('name', 'username')
+2025-08-27 16:02:55,074 | INFO | pages.base_page | Checking visibility of element: ('name', 'password')
+2025-08-27 16:03:02,782 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:03:06,039 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:03:06,039 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:03:06,686 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:03:06,686 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:03:06,686 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:03:06,774 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:03:06,774 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:03:06,832 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Admin']")
+2025-08-27 16:03:08,698 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Admin']")
+2025-08-27 16:03:09,715 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='PIM']")
+2025-08-27 16:03:10,370 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='PIM']")
+2025-08-27 16:03:11,280 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Leave']")
+2025-08-27 16:03:11,931 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Leave']")
+2025-08-27 16:03:12,815 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Time']")
+2025-08-27 16:03:13,467 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Time']")
+2025-08-27 16:03:14,346 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Recruitment']")
+2025-08-27 16:03:14,977 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Recruitment']")
+2025-08-27 16:03:15,877 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='My Info']")
+2025-08-27 16:03:16,535 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='My Info']")
+2025-08-27 16:03:17,473 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Performance']")
+2025-08-27 16:03:18,133 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Performance']")
+2025-08-27 16:03:19,094 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Dashboard']")
+2025-08-27 16:03:19,746 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Dashboard']")
+2025-08-27 16:03:28,592 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:03:31,781 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:03:31,781 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:03:32,426 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:03:32,426 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:03:32,426 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:03:32,509 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:03:32,509 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:03:32,572 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Admin']")
+2025-08-27 16:03:35,430 | INFO | pages.admin_page | Adding new user: sivakumar14256 for employee: Ravi M B
+2025-08-27 16:03:35,430 | INFO | pages.base_page | Clicking element: ('xpath', "//button[.//i[contains(@class,'plus')]] | //button[normalize-space()='Add']")
+2025-08-27 16:03:36,627 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='User Role']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:03:37,301 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span[text()='ESS']")
+2025-08-27 16:03:37,356 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Status']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:03:37,405 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span[text()='Enabled']")
+2025-08-27 16:03:37,459 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input"): 'Ravi M B'
+2025-08-27 16:03:37,459 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:03:37,540 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input")
+2025-08-27 16:03:37,541 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span")
+2025-08-27 16:03:39,123 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input"): 'sivakumar14256'
+2025-08-27 16:03:39,123 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Username']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:03:39,220 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input")
+2025-08-27 16:03:39,220 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Password']/../following-sibling::div//input"): 'Pass@123'
+2025-08-27 16:03:39,220 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Password']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:03:39,295 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Password']/../following-sibling::div//input")
+2025-08-27 16:03:39,296 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Confirm Password']/../following-sibling::div//input"): 'Pass@123'
+2025-08-27 16:03:39,296 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Confirm Password']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:03:39,374 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Confirm Password']/../following-sibling::div//input")
+2025-08-27 16:03:39,375 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Save']")
+2025-08-27 16:03:39,436 | INFO | pages.admin_page | Clicked 'Save' button
+2025-08-27 16:03:39,436 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")
+2025-08-27 16:03:41,494 | INFO | pages.admin_page | User 'sivakumar14256' added successfully.
+2025-08-27 16:03:41,494 | INFO | pages.base_page | Clicking element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 16:03:41,555 | INFO | pages.base_page | Clicking element: ('xpath', "//a[text()='Logout']")
+2025-08-27 16:03:43,041 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'sivakumar14256'
+2025-08-27 16:03:43,041 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:03:43,669 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:03:43,670 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'Pass@123'
+2025-08-27 16:03:43,670 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:03:43,747 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:03:43,747 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:03:43,797 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 16:03:53,437 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:03:56,675 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:03:56,675 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:03:57,327 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:03:57,327 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:03:57,327 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:03:57,408 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:03:57,409 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:03:57,468 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Admin']")
+2025-08-27 16:04:00,375 | INFO | pages.admin_page | Searching for user: sivakumar14256
+2025-08-27 16:04:00,375 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input"): 'sivakumar14256'
+2025-08-27 16:04:00,375 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Username']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:04:01,110 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input")
+2025-08-27 16:04:01,110 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Search']")
+2025-08-27 16:04:01,199 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[@role='table']//div[@role='row']")
+2025-08-27 16:04:05,125 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:04:08,366 | INFO | pages.base_page | Clicking element: ('xpath', "//p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']")
+2025-08-27 16:04:09,708 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//input[@name='username' or @placeholder='Username']")
+2025-08-27 16:04:10,264 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@name='username' or @placeholder='Username']"): 'Admin'
+2025-08-27 16:04:10,264 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@name='username' or @placeholder='Username']") (timeout=10)
+2025-08-27 16:04:10,359 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@name='username' or @placeholder='Username']")
+2025-08-27 16:04:10,359 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit' and normalize-space()='Reset Password'] | //button[@type='submit']")
+2025-08-27 16:04:10,421 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(text(),'Reset Password link sent successfully')] | //p[contains(text(),'instructions')] | //h6[@class='oxd-text oxd-text--h6 orangehrm-forgot-password-title']")
+2025-08-27 16:04:20,149 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:04:23,416 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:04:23,416 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:04:24,057 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:04:24,058 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:04:24,058 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:04:24,137 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:04:24,137 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:04:24,195 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='My Info']")
+2025-08-27 16:04:27,153 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Personal Details']")
+2025-08-27 16:04:28,442 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 16:04:29,140 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Contact Details']")
+2025-08-27 16:04:29,794 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 16:04:30,474 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Emergency Contacts']")
+2025-08-27 16:04:31,037 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 16:04:31,677 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Dependents']")
+2025-08-27 16:04:32,266 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 16:04:32,899 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Immigration']")
+2025-08-27 16:04:33,473 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 16:04:42,442 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:04:45,615 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:04:45,615 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:04:46,261 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:04:46,261 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:04:46,262 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:04:46,341 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:04:46,341 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:04:46,399 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Leave']")
+2025-08-27 16:04:49,228 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Assign Leave']")
+2025-08-27 16:04:50,840 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input"): 'Rahul  Das'
+2025-08-27 16:04:50,841 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:04:51,548 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input")
+2025-08-27 16:04:51,548 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span")
+2025-08-27 16:04:53,133 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Leave Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:04:53,187 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='CAN - Personal']") (timeout=10)
+2025-08-27 16:04:53,206 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='CAN - Personal']")
+2025-08-27 16:04:53,260 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]"): '2025-08-27'
+2025-08-27 16:04:53,260 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]") (timeout=10)
+2025-08-27 16:04:53,341 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]")
+2025-08-27 16:04:53,342 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea"): 'Automated leave'
+2025-08-27 16:04:53,342 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 16:04:53,447 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea")
+2025-08-27 16:04:53,447 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Assign']")
+2025-08-27 16:04:53,521 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//button[normalize-space()='Ok']")
+2025-08-27 16:04:54,561 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Ok']")
+2025-08-27 16:04:54,615 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")
+2025-08-27 16:12:02,824 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:12:05,985 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:12:05,985 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:12:06,657 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:12:06,657 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:12:06,657 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:12:06,737 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:12:06,737 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:12:06,799 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Claim']")
+2025-08-27 16:12:09,656 | INFO | pages.claims_page | Starting a new claim process...
+2025-08-27 16:12:09,656 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Submit Claim']")
+2025-08-27 16:12:10,876 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Event']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:12:11,556 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']") (timeout=10)
+2025-08-27 16:12:11,575 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']")
+2025-08-27 16:12:11,630 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Currency']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:12:11,698 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Indian Rupee']") (timeout=10)
+2025-08-27 16:12:11,718 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Indian Rupee']")
+2025-08-27 16:12:11,775 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea"): 'Automated claim'
+2025-08-27 16:12:11,776 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 16:12:11,865 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea")
+2025-08-27 16:12:11,865 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Create']")
+2025-08-27 16:12:11,954 | INFO | pages.base_page | Clicking element: ('xpath', "//button[.//i[contains(@class,'plus')]]")
+2025-08-27 16:12:16,520 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Expense Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:12:17,099 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']") (timeout=10)
+2025-08-27 16:12:17,117 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']")
+2025-08-27 16:12:17,183 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Amount']/../following-sibling::div//input"): '10'
+2025-08-27 16:12:17,183 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Amount']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:12:17,277 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Amount']/../following-sibling::div//input")
+2025-08-27 16:12:17,277 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Note']/../following-sibling::div//textarea"): 'Automated claim item'
+2025-08-27 16:12:17,277 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Note']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 16:12:17,384 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Note']/../following-sibling::div//textarea")
+2025-08-27 16:12:17,384 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]"): '2025-08-27'
+2025-08-27 16:12:17,384 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]") (timeout=10)
+2025-08-27 16:12:17,467 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]")
+2025-08-27 16:12:17,467 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Save']")
+2025-08-27 16:12:17,533 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")
+2025-08-27 16:12:18,567 | INFO | pages.claims_page | Claim created successfully
+2025-08-27 16:12:26,439 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:12:29,876 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:12:29,876 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:12:30,514 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:12:30,515 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:12:30,515 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:12:30,596 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:12:30,596 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:12:30,652 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 16:12:32,541 | INFO | pages.base_page | Clicking element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 16:12:32,599 | INFO | pages.base_page | Clicking element: ('xpath', "//a[text()='Logout']")
+2025-08-27 16:12:41,856 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:12:45,196 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'manager@guvi.in'
+2025-08-27 16:12:45,197 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:12:45,855 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:12:45,855 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'password@123'
+2025-08-27 16:12:45,855 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:12:45,936 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:12:45,936 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:12:46,007 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 16:12:47,430 | INFO | pages.base_page | Retrieving text from element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 16:12:55,142 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:12:58,025 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'suman@guvi.in'
+2025-08-27 16:12:58,025 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:12:58,681 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:12:58,681 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'password@123'
+2025-08-27 16:12:58,681 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:12:58,764 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:12:58,764 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:12:58,833 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 16:13:00,241 | INFO | pages.base_page | Retrieving text from element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 16:13:08,023 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:13:18,947 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:13:21,791 | INFO | pages.base_page | Checking visibility of element: ('name', 'username')
+2025-08-27 16:13:22,356 | INFO | pages.base_page | Checking visibility of element: ('name', 'password')
+2025-08-27 16:13:30,076 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:13:33,218 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:13:33,218 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:13:33,865 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:13:33,865 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:13:33,865 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:13:33,946 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:13:33,946 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:13:34,019 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Admin']")
+2025-08-27 16:13:35,852 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Admin']")
+2025-08-27 16:13:36,952 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='PIM']")
+2025-08-27 16:13:37,592 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='PIM']")
+2025-08-27 16:13:38,464 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Leave']")
+2025-08-27 16:13:39,178 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Leave']")
+2025-08-27 16:13:40,171 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Time']")
+2025-08-27 16:13:40,813 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Time']")
+2025-08-27 16:13:41,695 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Recruitment']")
+2025-08-27 16:13:42,321 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Recruitment']")
+2025-08-27 16:13:43,234 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='My Info']")
+2025-08-27 16:13:43,879 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='My Info']")
+2025-08-27 16:13:44,845 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Performance']")
+2025-08-27 16:13:45,517 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Performance']")
+2025-08-27 16:13:46,482 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//span[text()='Dashboard']")
+2025-08-27 16:13:47,124 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Dashboard']")
+2025-08-27 16:13:56,121 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:13:59,291 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:13:59,291 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:13:59,944 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:13:59,944 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:13:59,944 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:14:00,031 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:14:00,031 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:14:00,104 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Admin']")
+2025-08-27 16:14:02,928 | INFO | pages.admin_page | Adding new user: sivakumar14256 for employee: Ravi M B
+2025-08-27 16:14:02,928 | INFO | pages.base_page | Clicking element: ('xpath', "//button[.//i[contains(@class,'plus')]] | //button[normalize-space()='Add']")
+2025-08-27 16:14:04,112 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='User Role']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:14:04,816 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span[text()='ESS']")
+2025-08-27 16:14:04,872 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Status']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:14:04,923 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span[text()='Enabled']")
+2025-08-27 16:14:04,977 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input"): 'Ravi M B'
+2025-08-27 16:14:04,977 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:14:05,055 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input")
+2025-08-27 16:14:05,055 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span")
+2025-08-27 16:14:06,634 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input"): 'sivakumar14256'
+2025-08-27 16:14:06,634 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Username']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:14:06,720 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input")
+2025-08-27 16:14:06,720 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Password']/../following-sibling::div//input"): 'Pass@123'
+2025-08-27 16:14:06,720 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Password']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:14:06,800 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Password']/../following-sibling::div//input")
+2025-08-27 16:14:06,800 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Confirm Password']/../following-sibling::div//input"): 'Pass@123'
+2025-08-27 16:14:06,800 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Confirm Password']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:14:06,878 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Confirm Password']/../following-sibling::div//input")
+2025-08-27 16:14:06,878 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Save']")
+2025-08-27 16:14:06,933 | INFO | pages.admin_page | Clicked 'Save' button
+2025-08-27 16:14:06,933 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")
+2025-08-27 16:14:08,986 | INFO | pages.admin_page | User 'sivakumar14256' added successfully.
+2025-08-27 16:14:08,986 | INFO | pages.base_page | Clicking element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 16:14:09,043 | INFO | pages.base_page | Clicking element: ('xpath', "//a[text()='Logout']")
+2025-08-27 16:14:10,520 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'sivakumar14256'
+2025-08-27 16:14:10,521 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:14:11,145 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:14:11,145 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'Pass@123'
+2025-08-27 16:14:11,145 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:14:11,222 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:14:11,222 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:14:11,272 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 16:14:21,481 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:14:24,799 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:14:24,799 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:14:25,453 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:14:25,453 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:14:25,453 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:14:25,531 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:14:25,531 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:14:25,601 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Admin']")
+2025-08-27 16:14:28,404 | INFO | pages.admin_page | Searching for user: sivakumar14256
+2025-08-27 16:14:28,404 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input"): 'sivakumar14256'
+2025-08-27 16:14:28,405 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Username']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:14:29,082 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input")
+2025-08-27 16:14:29,082 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Search']")
+2025-08-27 16:14:29,141 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[@role='table']//div[@role='row']")
+2025-08-27 16:14:29,672 | INFO | pages.admin_page | User 'sivakumar14256' found in search results.
+2025-08-27 16:14:37,372 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:14:40,937 | INFO | pages.base_page | Clicking element: ('xpath', "//p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']")
+2025-08-27 16:14:42,236 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//input[@name='username' or @placeholder='Username']")
+2025-08-27 16:14:42,789 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@name='username' or @placeholder='Username']"): 'Admin'
+2025-08-27 16:14:42,789 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@name='username' or @placeholder='Username']") (timeout=10)
+2025-08-27 16:14:42,881 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@name='username' or @placeholder='Username']")
+2025-08-27 16:14:42,882 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit' and normalize-space()='Reset Password'] | //button[@type='submit']")
+2025-08-27 16:14:42,939 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(text(),'Reset Password link sent successfully')] | //p[contains(text(),'instructions')] | //h6[@class='oxd-text oxd-text--h6 orangehrm-forgot-password-title']")
+2025-08-27 16:14:52,038 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:14:55,275 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:14:55,275 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:14:55,921 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:14:55,921 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:14:55,921 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:14:56,007 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:14:56,007 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:14:56,074 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='My Info']")
+2025-08-27 16:14:59,048 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Personal Details']")
+2025-08-27 16:15:00,654 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 16:15:01,337 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Contact Details']")
+2025-08-27 16:15:02,040 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 16:15:02,713 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Emergency Contacts']")
+2025-08-27 16:15:03,290 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 16:15:03,927 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Dependents']")
+2025-08-27 16:15:04,511 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 16:15:05,138 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Immigration']")
+2025-08-27 16:15:05,751 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 16:15:14,572 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 16:15:17,838 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 16:15:17,838 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 16:15:18,492 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 16:15:18,492 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 16:15:18,492 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 16:15:18,579 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 16:15:18,579 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 16:15:18,635 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Leave']")
+2025-08-27 16:15:21,504 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Assign Leave']")
+2025-08-27 16:15:22,872 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input"): 'Ranga  Akunuri'
+2025-08-27 16:15:22,872 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input") (timeout=10)
+2025-08-27 16:15:23,599 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input")
+2025-08-27 16:15:23,599 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span")
+2025-08-27 16:15:25,195 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Leave Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 16:15:25,257 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='CAN - Personal']") (timeout=10)
+2025-08-27 16:15:25,276 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='CAN - Personal']")
+2025-08-27 16:15:25,329 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]"): '2025-08-27'
+2025-08-27 16:15:25,329 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]") (timeout=10)
+2025-08-27 16:15:25,406 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]")
+2025-08-27 16:15:25,407 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea"): 'Automated leave'
+2025-08-27 16:15:25,407 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 16:15:25,534 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea")
+2025-08-27 16:15:25,534 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Assign']")
+2025-08-27 16:15:25,613 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//button[normalize-space()='Ok']")
+2025-08-27 16:15:26,656 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Ok']")
+2025-08-27 16:15:26,715 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")

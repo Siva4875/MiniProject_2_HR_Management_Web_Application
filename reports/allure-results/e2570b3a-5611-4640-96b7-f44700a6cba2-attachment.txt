@@ -1,0 +1,19 @@
+2025-08-27 15:48:09,601 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:48:12,873 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:48:12,873 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:48:13,526 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:48:13,526 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:48:13,526 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:48:13,605 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:48:13,605 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:48:13,675 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='My Info']")
+2025-08-27 15:48:16,550 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Personal Details']")
+2025-08-27 15:48:17,875 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 15:48:18,565 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Contact Details']")
+2025-08-27 15:48:19,166 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 15:48:19,834 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Emergency Contacts']")
+2025-08-27 15:48:20,422 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 15:48:21,066 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Dependents']")
+2025-08-27 15:48:21,647 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+2025-08-27 15:48:22,279 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Immigration']")
+2025-08-27 15:48:22,873 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")

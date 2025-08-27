@@ -1,0 +1,27 @@
+2025-08-27 15:48:31,596 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:48:34,807 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:48:34,807 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:48:35,459 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:48:35,459 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:48:35,459 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:48:35,541 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:48:35,541 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:48:35,602 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Leave']")
+2025-08-27 15:48:39,423 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Assign Leave']")
+2025-08-27 15:48:40,982 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input"): 'Amelia  Brown'
+2025-08-27 15:48:40,982 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input") (timeout=10)
+2025-08-27 15:48:41,695 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input")
+2025-08-27 15:48:41,696 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox']//span")
+2025-08-27 15:48:43,295 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Leave Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 15:48:43,355 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='CAN - Personal']") (timeout=10)
+2025-08-27 15:48:43,376 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='CAN - Personal']")
+2025-08-27 15:48:43,430 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]"): '2025-08-27'
+2025-08-27 15:48:43,430 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]") (timeout=10)
+2025-08-27 15:48:43,510 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]")
+2025-08-27 15:48:43,511 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea"): 'Automated leave'
+2025-08-27 15:48:43,511 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 15:48:43,601 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea")
+2025-08-27 15:48:43,601 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Assign']")
+2025-08-27 15:48:43,665 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//button[normalize-space()='Ok']")
+2025-08-27 15:48:44,709 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Ok']")
+2025-08-27 15:48:44,764 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")

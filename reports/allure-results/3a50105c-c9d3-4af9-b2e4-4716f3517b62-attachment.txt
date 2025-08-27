@@ -1,0 +1,33 @@
+[32mINFO    [0m tests.conftest:conftest.py:67 Launching browser and navigating to login page.
+[32mINFO    [0m pages.login_page:login_page.py:23 Opening login page: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.base_page:base_page.py:23 Opening URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m tests.conftest:conftest.py:73 Performing login as Admin.
+[32mINFO    [0m pages.login_page:login_page.py:32 Entering username: Admin
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'username'): 'Admin'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'username') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'username')
+[32mINFO    [0m pages.login_page:login_page.py:35 Entering password.
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'password'): 'admin123'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'password') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'password')
+[32mINFO    [0m pages.login_page:login_page.py:38 Clicking on Login button.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m tests.conftest:conftest.py:78 Admin successfully logged in, returning DashboardPage object.
+[32mINFO    [0m tests.test_case_6_validate_new_user_present:test_case_6_validate_new_user_present.py:32 Starting test: test_new_user_present
+[32mINFO    [0m tests.test_case_6_validate_new_user_present:test_case_6_validate_new_user_present.py:36 Admin login successful, DashboardPage loaded
+[32mINFO    [0m tests.test_case_6_validate_new_user_present:test_case_6_validate_new_user_present.py:16 Reading user data from CSV file: data/new_user_data.csv
+[32mINFO    [0m tests.test_case_6_validate_new_user_present:test_case_6_validate_new_user_present.py:19 User data loaded for validation: Username=siva4235
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: Admin
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='Admin']")
+[32mINFO    [0m tests.test_case_6_validate_new_user_present:test_case_6_validate_new_user_present.py:43 Navigated to Admin Page
+[32mINFO    [0m tests.test_case_6_validate_new_user_present:test_case_6_validate_new_user_present.py:47 Searching for new user: siva4235
+[32mINFO    [0m pages.admin_page:admin_page.py:91 Searching for user: siva4235
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input"): 'siva4235'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//label[text()='Username']/../following-sibling::div//input") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input")
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[normalize-space()='Search']")
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//div[@role='table']//div[@role='row']")
+[32mINFO    [0m pages.admin_page:admin_page.py:101 User 'siva4235' found in search results.
+[32mINFO    [0m tests.test_case_6_validate_new_user_present:test_case_6_validate_new_user_present.py:52 New user 'siva4235' found in listing
+[32mINFO    [0m tests.test_case_6_validate_new_user_present:test_case_6_validate_new_user_present.py:54 Test test_new_user_present completed successfully
+[32mINFO    [0m tests.conftest:conftest.py:81 Closing WebDriver instance after test.

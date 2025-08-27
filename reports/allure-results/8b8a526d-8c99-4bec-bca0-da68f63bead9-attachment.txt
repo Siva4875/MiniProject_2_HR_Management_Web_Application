@@ -1,0 +1,11 @@
+[32mINFO    [0m tests.conftest:conftest.py:50 Launching WebDriver for browser: chromium
+[32mINFO    [0m tests.test_case_3_login_fields_present:test_case_3_login_fields_present.py:16 Starting test: test_login_fields_present
+[32mINFO    [0m pages.login_page:login_page.py:23 Opening login page: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.base_page:base_page.py:23 Opening URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m tests.test_case_3_login_fields_present:test_case_3_login_fields_present.py:21 Login page loaded successfully
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('name', 'username')
+[32mINFO    [0m tests.test_case_3_login_fields_present:test_case_3_login_fields_present.py:25 Username field is visible
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('name', 'password')
+[32mINFO    [0m tests.test_case_3_login_fields_present:test_case_3_login_fields_present.py:29 Password field is visible
+[32mINFO    [0m tests.test_case_3_login_fields_present:test_case_3_login_fields_present.py:31 Test test_login_fields_present completed successfully
+[32mINFO    [0m tests.conftest:conftest.py:53 Closing WebDriver instance.

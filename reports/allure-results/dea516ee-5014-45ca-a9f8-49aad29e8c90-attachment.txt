@@ -1,0 +1,37 @@
+2025-08-27 15:45:17,501 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:45:20,640 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:45:20,641 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:45:21,294 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:45:21,295 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:45:21,295 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:45:21,383 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:45:21,383 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:45:21,478 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Claim']")
+2025-08-27 15:45:24,406 | INFO | pages.claims_page | Starting a new claim process...
+2025-08-27 15:45:24,407 | INFO | pages.base_page | Clicking element: ('xpath', "//a[normalize-space()='Submit Claim']")
+2025-08-27 15:45:25,615 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Event']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 15:45:26,295 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']") (timeout=10)
+2025-08-27 15:45:26,314 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']")
+2025-08-27 15:45:26,370 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Currency']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 15:45:26,435 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Indian Rupee']") (timeout=10)
+2025-08-27 15:45:26,455 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Indian Rupee']")
+2025-08-27 15:45:26,510 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea"): 'Automated claim'
+2025-08-27 15:45:26,510 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 15:45:26,585 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea")
+2025-08-27 15:45:26,585 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Create']")
+2025-08-27 15:45:26,642 | INFO | pages.base_page | Clicking element: ('xpath', "//button[.//i[contains(@class,'plus')]]")
+2025-08-27 15:45:31,274 | INFO | pages.base_page | Clicking element: ('xpath', "//label[text()='Expense Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+2025-08-27 15:45:31,858 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']") (timeout=10)
+2025-08-27 15:45:31,877 | INFO | pages.base_page | Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']")
+2025-08-27 15:45:31,942 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Amount']/../following-sibling::div//input"): '10'
+2025-08-27 15:45:31,942 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Amount']/../following-sibling::div//input") (timeout=10)
+2025-08-27 15:45:32,024 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Amount']/../following-sibling::div//input")
+2025-08-27 15:45:32,024 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Note']/../following-sibling::div//textarea"): 'Automated claim item'
+2025-08-27 15:45:32,024 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Note']/../following-sibling::div//textarea") (timeout=10)
+2025-08-27 15:45:32,109 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Note']/../following-sibling::div//textarea")
+2025-08-27 15:45:32,109 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]"): '2025-08-27'
+2025-08-27 15:45:32,109 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]") (timeout=10)
+2025-08-27 15:45:32,193 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]")
+2025-08-27 15:45:32,193 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Save']")
+2025-08-27 15:45:32,258 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")
+2025-08-27 15:45:33,294 | INFO | pages.claims_page | Claim created successfully

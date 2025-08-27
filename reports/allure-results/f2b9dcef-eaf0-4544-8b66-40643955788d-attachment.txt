@@ -1,0 +1,57 @@
+[32mINFO    [0m tests.conftest:conftest.py:67 Launching browser and navigating to login page.
+[32mINFO    [0m pages.login_page:login_page.py:23 Opening login page: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.base_page:base_page.py:23 Opening URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m tests.conftest:conftest.py:73 Performing login as Admin.
+[32mINFO    [0m pages.login_page:login_page.py:32 Entering username: Admin
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'username'): 'Admin'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'username') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'username')
+[32mINFO    [0m pages.login_page:login_page.py:35 Entering password.
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'password'): 'admin123'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'password') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'password')
+[32mINFO    [0m pages.login_page:login_page.py:38 Clicking on Login button.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m tests.conftest:conftest.py:78 Admin successfully logged in, returning DashboardPage object.
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:18 Starting test: test_myinfo_sections
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:22 Logged in as Admin successfully
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: My Info
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='My Info']")
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:26 Navigated to 'My Info' section
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:42 Checking if section 'Personal Details' can be opened
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:33 Clicking on sidebar section: Personal Details
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:24 Generating locator for section: Personal Details
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//a[normalize-space()='Personal Details']")
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:36 Checking if section header is visible.
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:44 Section 'Personal Details' opened successfully
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:42 Checking if section 'Contact Details' can be opened
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:33 Clicking on sidebar section: Contact Details
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:24 Generating locator for section: Contact Details
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//a[normalize-space()='Contact Details']")
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:36 Checking if section header is visible.
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:44 Section 'Contact Details' opened successfully
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:42 Checking if section 'Emergency Contacts' can be opened
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:33 Clicking on sidebar section: Emergency Contacts
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:24 Generating locator for section: Emergency Contacts
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//a[normalize-space()='Emergency Contacts']")
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:36 Checking if section header is visible.
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:44 Section 'Emergency Contacts' opened successfully
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:42 Checking if section 'Dependents' can be opened
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:33 Clicking on sidebar section: Dependents
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:24 Generating locator for section: Dependents
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//a[normalize-space()='Dependents']")
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:36 Checking if section header is visible.
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:44 Section 'Dependents' opened successfully
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:42 Checking if section 'Immigration' can be opened
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:33 Clicking on sidebar section: Immigration
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:24 Generating locator for section: Immigration
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//a[normalize-space()='Immigration']")
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:36 Checking if section header is visible.
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//h6[contains(@class,'orangehrm-main-title')]")
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:44 Section 'Immigration' opened successfully
+[32mINFO    [0m tests.test_case_8_myinfo_menu_items:test_case_8_myinfo_menu_items.py:46 Test test_myinfo_sections completed successfully
+[32mINFO    [0m tests.conftest:conftest.py:81 Closing WebDriver instance after test.

@@ -1,0 +1,16 @@
+2025-08-27 15:47:38,433 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:47:41,641 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:47:41,641 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:47:42,288 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:47:42,288 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:47:42,288 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:47:42,366 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:47:42,367 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:47:42,424 | INFO | pages.base_page | Clicking element: ('xpath', "//span[text()='Admin']")
+2025-08-27 15:47:45,226 | INFO | pages.admin_page | Searching for user: siva4235
+2025-08-27 15:47:45,227 | INFO | pages.base_page | Typing text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input"): 'siva4235'
+2025-08-27 15:47:45,227 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//label[text()='Username']/../following-sibling::div//input") (timeout=10)
+2025-08-27 15:47:45,979 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//label[text()='Username']/../following-sibling::div//input")
+2025-08-27 15:47:45,980 | INFO | pages.base_page | Clicking element: ('xpath', "//button[normalize-space()='Search']")
+2025-08-27 15:47:46,046 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//div[@role='table']//div[@role='row']")
+2025-08-27 15:47:46,573 | INFO | pages.admin_page | User 'siva4235' found in search results.

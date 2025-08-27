@@ -1,0 +1,67 @@
+[32mINFO    [0m tests.conftest:conftest.py:67 Launching browser and navigating to login page.
+[32mINFO    [0m pages.login_page:login_page.py:23 Opening login page: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.base_page:base_page.py:23 Opening URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m tests.conftest:conftest.py:73 Performing login as Admin.
+[32mINFO    [0m pages.login_page:login_page.py:32 Entering username: Admin
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'username'): 'Admin'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'username') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'username')
+[32mINFO    [0m pages.login_page:login_page.py:35 Entering password.
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'password'): 'admin123'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'password') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'password')
+[32mINFO    [0m pages.login_page:login_page.py:38 Clicking on Login button.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m tests.conftest:conftest.py:78 Admin successfully logged in, returning DashboardPage object.
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:18 Starting test: test_main_menu_items_visible_clickable
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:22 Admin login successful, DashboardPage loaded
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:29 Checking visibility of menu item: Admin
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//span[text()='Admin']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:33 Admin menu item is visible
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: Admin
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='Admin']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:37 Clicked on Admin menu item successfully
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:29 Checking visibility of menu item: PIM
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//span[text()='PIM']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:33 PIM menu item is visible
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: PIM
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='PIM']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:37 Clicked on PIM menu item successfully
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:29 Checking visibility of menu item: Leave
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//span[text()='Leave']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:33 Leave menu item is visible
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: Leave
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='Leave']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:37 Clicked on Leave menu item successfully
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:29 Checking visibility of menu item: Time
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//span[text()='Time']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:33 Time menu item is visible
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: Time
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='Time']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:37 Clicked on Time menu item successfully
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:29 Checking visibility of menu item: Recruitment
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//span[text()='Recruitment']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:33 Recruitment menu item is visible
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: Recruitment
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='Recruitment']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:37 Clicked on Recruitment menu item successfully
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:29 Checking visibility of menu item: My Info
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//span[text()='My Info']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:33 My Info menu item is visible
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: My Info
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='My Info']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:37 Clicked on My Info menu item successfully
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:29 Checking visibility of menu item: Performance
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//span[text()='Performance']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:33 Performance menu item is visible
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: Performance
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='Performance']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:37 Clicked on Performance menu item successfully
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:29 Checking visibility of menu item: Dashboard
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//span[text()='Dashboard']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:33 Dashboard menu item is visible
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: Dashboard
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='Dashboard']")
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:37 Clicked on Dashboard menu item successfully
+[32mINFO    [0m tests.test_case_4_main_menu_items:test_case_4_main_menu_items.py:39 Test test_main_menu_items_visible_clickable completed successfully
+[32mINFO    [0m tests.conftest:conftest.py:81 Closing WebDriver instance after test.

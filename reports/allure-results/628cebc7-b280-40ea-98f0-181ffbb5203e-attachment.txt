@@ -1,0 +1,53 @@
+[32mINFO    [0m tests.conftest:conftest.py:40 Selected browser: chromium
+[32mINFO    [0m tests.conftest:conftest.py:67 Launching browser and navigating to login page.
+[32mINFO    [0m pages.login_page:login_page.py:23 Opening login page: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.base_page:base_page.py:23 Opening URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m tests.conftest:conftest.py:73 Performing login as Admin.
+[32mINFO    [0m pages.login_page:login_page.py:32 Entering username: Admin
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'username'): 'Admin'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'username') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'username')
+[32mINFO    [0m pages.login_page:login_page.py:35 Entering password.
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'password'): 'admin123'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'password') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'password')
+[32mINFO    [0m pages.login_page:login_page.py:38 Clicking on Login button.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m tests.conftest:conftest.py:78 Admin successfully logged in, returning DashboardPage object.
+[32mINFO    [0m tests.test_case_10_claim_request:test_case_10_claim_request.py:19 Starting test: test_initiate_claim
+[32mINFO    [0m tests.test_case_10_claim_request:test_case_10_claim_request.py:23 Logged in as Admin successfully
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: Claim
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='Claim']")
+[32mINFO    [0m tests.test_case_10_claim_request:test_case_10_claim_request.py:27 Navigated to 'Claim' section
+[32mINFO    [0m tests.test_case_10_claim_request:test_case_10_claim_request.py:33 Attempting to initiate a new claim
+[32mINFO    [0m pages.claims_page:claims_page.py:46 Starting a new claim process...
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//a[normalize-space()='Submit Claim']")
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//label[text()='Event']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']")
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//label[text()='Currency']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Indian Rupee']") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Indian Rupee']")
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea"): 'Automated claim'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('xpath', "//label[text()='Remarks']/../following-sibling::div//textarea")
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[normalize-space()='Create']")
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[.//i[contains(@class,'plus')]]")
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//label[text()='Expense Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='Accommodation']")
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('xpath', "//label[text()='Amount']/../following-sibling::div//input"): '10'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//label[text()='Amount']/../following-sibling::div//input") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('xpath', "//label[text()='Amount']/../following-sibling::div//input")
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('xpath', "//label[text()='Note']/../following-sibling::div//textarea"): 'Automated claim item'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//label[text()='Note']/../following-sibling::div//textarea") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('xpath', "//label[text()='Note']/../following-sibling::div//textarea")
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]"): '2025-08-27'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]")
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[normalize-space()='Save']")
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")
+[32mINFO    [0m pages.claims_page:claims_page.py:105 Claim created successfully
+[32mINFO    [0m tests.test_case_10_claim_request:test_case_10_claim_request.py:36 Claim successfully initiated
+[32mINFO    [0m tests.test_case_10_claim_request:test_case_10_claim_request.py:37 Test test_initiate_claim completed successfully
+[32mINFO    [0m tests.conftest:conftest.py:81 Closing WebDriver instance after test.

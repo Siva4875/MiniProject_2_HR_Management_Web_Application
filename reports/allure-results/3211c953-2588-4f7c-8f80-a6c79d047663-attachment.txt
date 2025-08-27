@@ -1,0 +1,10 @@
+2025-08-27 15:45:57,327 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:46:00,186 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'manager@guvi.in'
+2025-08-27 15:46:00,186 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:46:00,845 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:46:00,846 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'password@123'
+2025-08-27 15:46:00,846 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:46:00,931 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:46:00,931 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:46:01,001 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+2025-08-27 15:46:02,908 | INFO | pages.base_page | Retrieving text from element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")

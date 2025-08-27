@@ -1,0 +1,11 @@
+2025-08-27 15:45:41,895 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:45:45,120 | INFO | pages.base_page | Typing text into element ('name', 'username'): 'Admin'
+2025-08-27 15:45:45,120 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'username') (timeout=10)
+2025-08-27 15:45:45,773 | INFO | pages.base_page | Successfully typed text into element ('name', 'username')
+2025-08-27 15:45:45,773 | INFO | pages.base_page | Typing text into element ('name', 'password'): 'admin123'
+2025-08-27 15:45:45,773 | INFO | pages.base_page | Waiting for element to be clickable: ('name', 'password') (timeout=10)
+2025-08-27 15:45:45,858 | INFO | pages.base_page | Successfully typed text into element ('name', 'password')
+2025-08-27 15:45:45,858 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit']")
+2025-08-27 15:45:45,929 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 15:45:47,805 | INFO | pages.base_page | Clicking element: ('xpath', "//p[contains(@class,'oxd-userdropdown-name')]")
+2025-08-27 15:45:47,861 | INFO | pages.base_page | Clicking element: ('xpath', "//a[text()='Logout']")

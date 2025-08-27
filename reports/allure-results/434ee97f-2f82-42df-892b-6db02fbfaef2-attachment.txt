@@ -1,0 +1,20 @@
+[32mINFO    [0m tests.conftest:conftest.py:50 Launching WebDriver for browser: chromium
+[32mINFO    [0m tests.test_case_7_forgot_password:test_case_7_forgot_password.py:19 Starting test: test_forgot_password_flow
+[32mINFO    [0m pages.login_page:login_page.py:23 Opening login page: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.base_page:base_page.py:23 Opening URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m tests.test_case_7_forgot_password:test_case_7_forgot_password.py:24 Login page loaded successfully
+[32mINFO    [0m pages.login_page:login_page.py:45 Clicking on 'Forgot Password' link.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']")
+[32mINFO    [0m tests.test_case_7_forgot_password:test_case_7_forgot_password.py:28 Navigated to Forgot Password page
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//input[@name='username' or @placeholder='Username']")
+[32mINFO    [0m tests.test_case_7_forgot_password:test_case_7_forgot_password.py:40 Username field visible, entering username: Admin
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('xpath', "//input[@name='username' or @placeholder='Username']"): 'Admin'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//input[@name='username' or @placeholder='Username']") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('xpath', "//input[@name='username' or @placeholder='Username']")
+[32mINFO    [0m tests.test_case_7_forgot_password:test_case_7_forgot_password.py:42 Clicking on Reset Password button
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[@type='submit' and normalize-space()='Reset Password'] | //button[@type='submit']")
+[32mINFO    [0m tests.test_case_7_forgot_password:test_case_7_forgot_password.py:56 Validating presence of confirmation message after reset
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//h6[contains(text(),'Reset Password link sent successfully')] | //p[contains(text(),'instructions')] | //h6[@class='oxd-text oxd-text--h6 orangehrm-forgot-password-title']")
+[32mINFO    [0m tests.test_case_7_forgot_password:test_case_7_forgot_password.py:58 Reset Password flow successful - confirmation message displayed
+[32mINFO    [0m tests.test_case_7_forgot_password:test_case_7_forgot_password.py:60 Test test_forgot_password_flow completed successfully
+[32mINFO    [0m tests.conftest:conftest.py:53 Closing WebDriver instance.

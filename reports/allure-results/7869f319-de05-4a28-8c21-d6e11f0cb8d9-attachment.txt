@@ -1,0 +1,53 @@
+[32mINFO    [0m tests.conftest:conftest.py:67 Launching browser and navigating to login page.
+[32mINFO    [0m pages.login_page:login_page.py:23 Opening login page: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.base_page:base_page.py:23 Opening URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m tests.conftest:conftest.py:73 Performing login as Admin.
+[32mINFO    [0m pages.login_page:login_page.py:32 Entering username: Admin
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'username'): 'Admin'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'username') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'username')
+[32mINFO    [0m pages.login_page:login_page.py:35 Entering password.
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'password'): 'admin123'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'password') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'password')
+[32mINFO    [0m pages.login_page:login_page.py:38 Clicking on Login button.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m tests.conftest:conftest.py:78 Admin successfully logged in, returning DashboardPage object.
+[32mINFO    [0m tests.test_case_9_assign_leave:test_case_9_assign_leave.py:19 Starting test: test_assign_leave
+[32mINFO    [0m tests.test_case_9_assign_leave:test_case_9_assign_leave.py:23 Logged in as Admin successfully
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:31 Opening menu item: Leave
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//span[text()='Leave']")
+[32mINFO    [0m tests.test_case_9_assign_leave:test_case_9_assign_leave.py:27 Navigated to 'Leave' section
+[32mINFO    [0m tests.test_case_9_assign_leave:test_case_9_assign_leave.py:34 Attempting to assign leave to employee: Amelia  Brown
+[32mINFO    [0m pages.leave_page:leave_page.py:31 Navigating to Assign Leave menu.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//a[normalize-space()='Assign Leave']")
+[32mINFO    [0m pages.leave_page:leave_page.py:34 Typing employee name: Amelia  Brown
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input"): 'Amelia  Brown'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('xpath', "//label[text()='Employee Name']/../following-sibling::div//input")
+[32mINFO    [0m pages.leave_page:leave_page.py:38 Selecting first employee from autocomplete list.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//div[@role='listbox']//span")
+[32mINFO    [0m pages.leave_page:leave_page.py:43 Opening Leave Type dropdown.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//label[text()='Leave Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]")
+[32mINFO    [0m pages.leave_page:leave_page.py:48 Waiting for leave type 'CAN - Personal' to appear.
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='CAN - Personal']") (timeout=10)
+[32mINFO    [0m pages.leave_page:leave_page.py:51 Selecting leave type: CAN - Personal
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//div[@role='listbox' and not(contains(@style,'display: none'))]//div[@role='option'][normalize-space()='CAN - Personal']")
+[32mINFO    [0m pages.leave_page:leave_page.py:56 Entering leave start date: 2025-08-27
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]"): '2025-08-27'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('xpath', "//input[@placeholder='yyyy-dd-mm'][1]")
+[32mINFO    [0m pages.leave_page:leave_page.py:59 Entering comments: Automated leave
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea"): 'Automated leave'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea") (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('xpath', "//label[text()='Comments']/../following-sibling::div//textarea")
+[32mINFO    [0m pages.leave_page:leave_page.py:62 Clicking Assign button.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[normalize-space()='Assign']")
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//button[normalize-space()='Ok']")
+[32mINFO    [0m pages.leave_page:leave_page.py:67 Confirmation dialog detected. Clicking OK.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[normalize-space()='Ok']")
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//div[contains(@class,'oxd-toast--success')]")
+[32mINFO    [0m pages.leave_page:leave_page.py:73 Leave assignment successful. Success toast displayed.
+[32mINFO    [0m tests.test_case_9_assign_leave:test_case_9_assign_leave.py:38 Leave successfully assigned to employee: Amelia  Brown
+[32mINFO    [0m tests.test_case_9_assign_leave:test_case_9_assign_leave.py:40 Test test_assign_leave completed successfully
+[32mINFO    [0m tests.conftest:conftest.py:81 Closing WebDriver instance after test.

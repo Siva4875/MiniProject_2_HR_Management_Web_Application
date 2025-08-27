@@ -1,0 +1,22 @@
+[32mINFO    [0m tests.conftest:conftest.py:50 Launching WebDriver for browser: chromium
+[32mINFO    [0m tests.test_case_1_login_ddt:test_case_1_login_ddt.py:37 Starting login test with Username='manager@guvi.in', Expected='invalid'
+[32mINFO    [0m pages.login_page:login_page.py:23 Opening login page: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.base_page:base_page.py:23 Opening URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m tests.test_case_1_login_ddt:test_case_1_login_ddt.py:44 Attempting login with Username='manager@guvi.in'
+[32mINFO    [0m pages.login_page:login_page.py:32 Entering username: manager@guvi.in
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'username'): 'manager@guvi.in'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'username') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'username')
+[32mINFO    [0m pages.login_page:login_page.py:35 Entering password.
+[32mINFO    [0m pages.base_page:base_page.py:77 Typing text into element ('name', 'password'): 'password@123'
+[32mINFO    [0m pages.base_page:base_page.py:39 Waiting for element to be clickable: ('name', 'password') (timeout=10)
+[32mINFO    [0m pages.base_page:base_page.py:98 Successfully typed text into element ('name', 'password')
+[32mINFO    [0m pages.login_page:login_page.py:38 Clicking on Login button.
+[32mINFO    [0m pages.base_page:base_page.py:29 Clicking element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m tests.test_case_1_login_ddt:test_case_1_login_ddt.py:55 Expected invalid login. Checking for error message.
+[32mINFO    [0m pages.login_page:login_page.py:53 Checking for error banner.
+[32mINFO    [0m pages.base_page:base_page.py:55 Checking visibility of element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+[32mINFO    [0m pages.base_page:base_page.py:49 Retrieving text from element: ('xpath', "//p[contains(@class,'oxd-alert-content-text')] | //p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+[33mWARNING [0m pages.login_page:login_page.py:56 Login failed with error: Invalid credentials
+[32mINFO    [0m tests.test_case_1_login_ddt:test_case_1_login_ddt.py:58 Invalid login error message verified successfully.
+[32mINFO    [0m tests.conftest:conftest.py:53 Closing WebDriver instance.

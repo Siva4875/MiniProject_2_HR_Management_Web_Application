@@ -1,0 +1,8 @@
+2025-08-27 15:47:54,397 | INFO | pages.base_page | Opening URL: https://opensource-demo.orangehrmlive.com/
+2025-08-27 15:47:57,604 | INFO | pages.base_page | Clicking element: ('xpath', "//p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']")
+2025-08-27 15:47:58,971 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//input[@name='username' or @placeholder='Username']")
+2025-08-27 15:48:00,029 | INFO | pages.base_page | Typing text into element ('xpath', "//input[@name='username' or @placeholder='Username']"): 'Admin'
+2025-08-27 15:48:00,029 | INFO | pages.base_page | Waiting for element to be clickable: ('xpath', "//input[@name='username' or @placeholder='Username']") (timeout=10)
+2025-08-27 15:48:00,126 | INFO | pages.base_page | Successfully typed text into element ('xpath', "//input[@name='username' or @placeholder='Username']")
+2025-08-27 15:48:00,126 | INFO | pages.base_page | Clicking element: ('xpath', "//button[@type='submit' and normalize-space()='Reset Password'] | //button[@type='submit']")
+2025-08-27 15:48:00,193 | INFO | pages.base_page | Checking visibility of element: ('xpath', "//h6[contains(text(),'Reset Password link sent successfully')] | //p[contains(text(),'instructions')] | //h6[@class='oxd-text oxd-text--h6 orangehrm-forgot-password-title']")

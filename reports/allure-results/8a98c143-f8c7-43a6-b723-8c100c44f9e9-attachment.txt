@@ -1,0 +1,7 @@
+[32mINFO    [0m tests.conftest:conftest.py:50 Launching WebDriver for browser: chromium
+[32mINFO    [0m tests.test_case_2_home_url:test_case_2_home_url.py:17 Starting test: test_home_url_accessible
+[32mINFO    [0m pages.login_page:login_page.py:23 Opening login page: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m pages.base_page:base_page.py:23 Opening URL: https://opensource-demo.orangehrmlive.com/
+[32mINFO    [0m tests.test_case_2_home_url:test_case_2_home_url.py:22 Opened login page at: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m tests.test_case_2_home_url:test_case_2_home_url.py:28 Home URL is accessible and matches the BASE_URL
+[32mINFO    [0m tests.conftest:conftest.py:53 Closing WebDriver instance.
