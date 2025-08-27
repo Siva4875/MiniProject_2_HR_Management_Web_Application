@@ -36,7 +36,8 @@ Install dependencies:
 
     pip install -r requirements.txt
 
-▶ Run Tests
+Run Tests:
+    
     pytest --browser=chrome --alluredir=reports/allure-results
 
 View Allure Report
